@@ -1,1 +1,47 @@
-/*some styling*/
+body {
+    font-family: "Source Sans Pro", Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif ;
+}
+.heroImg {
+    padding: 25px;
+}
+.content {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.content img {
+    width: 100%;
+    height: auto;
+}
+.content h1 {
+    position: absolute;
+    left: 60%;
+    top: 10%;
+}
+.content p {
+    position: absolute;
+    left: 60%;
+    top: 25%;
+    padding-right: 10px;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+/*individual project styling*/
+.areYouHungry {
+    background-image: url("../images/image.png");
+}
+.perfromaPalooza {
+    background-image: url("../images/image.png");
+}
+.foodiesCover {
+    background-image: url("../images/image.png");
+}
